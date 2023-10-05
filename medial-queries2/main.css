@@ -1,3 +1,23 @@
 body {
-  background: papayawhip;
+  background: rgb(229, 218, 227);
+}
+
+* {
+  border: 1px solid rgb(3, 79, 79);}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-grow: 3;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 70vh;
 }

@@ -1,3 +1,15 @@
 body {
-  background: blanchedalmond;
+  background: rgb(205, 228, 255);
 }
+* {
+  border: 1px solid teal;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
